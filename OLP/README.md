@@ -2,10 +2,12 @@
 ```
 cd OLP
 javac -d bin src/vn/olp/SendingMoney.java
+javac -d bin src/vn/olp/Museq.java
 ```
 
 # Run
 ```
-cd bin
-java vn.olp.SendingMoney inputs/MONEY.INPT outputs/MONEY.OUT
+cd OLP
+java -cp bin vn.olp.SendingMoney MONEY.INP MONEY.OUT
+java -cp bin vn.olp.Museq MUSEQ.INP MUSEQ.OUT
 ```
