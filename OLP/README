@@ -1,0 +1,4 @@
+cd OLP
+javac -d bin src/vn/olp/SendingMoney.java
+cd bin
+java vn.olp.SendingMoney
